@@ -5,7 +5,7 @@ const { clear } = require('console');
 
 
 var isComplete=false;
-const DB_NAME = 'farmStand';
+const DB_NAME = 'farmStand';//Database name which you want to backup
 const ARCHIVE_PATH = path.join(__dirname, 'public', `${DB_NAME}.gzip`);
 
 
